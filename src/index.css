@@ -1,0 +1,168 @@
+
+
+.pageName{
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 2px #632a6c;
+  margin: 5px; 
+  position: sticky;
+  background: white;
+  top: 0;
+  z-index: 10;
+}
+
+.footerPage{
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #7c3987;
+}
+.footerPage p{
+  padding: 5px;
+  margin: 0;
+}
+
+body{
+  margin: 0;
+}
+
+.mainSection {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  align-items: center;
+  
+}
+
+.mainSection img {
+  width: 400px;
+  height: 300px;
+  margin: 1%;
+  transition: all 1s;
+}
+
+.mainSection img:hover {
+  transform: scale(1.05);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .mainSection img{
+      width: 200px;
+      height: 150px;
+      margin: 5px;
+      transition: all 1s;
+  }
+}
+
+
+.scoreCard{
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+
+}
+
+.stars{
+  font-size:  24px;
+  text-align: center;
+}
+
+a{
+  cursor: pointer;
+}
+
+
+
+.star{
+  color: #aa7b96;
+}
+.active{
+  color: gold;
+}
+
+.active:hover{
+  color: #6c4b5e;
+}
+.star:hover{
+  color: #5c3c4e;
+}
+
+h1{
+  color: rgb(120, 47, 97);
+}
+.promedio {
+    text-align: center;
+    margin: 35px 0;
+}
+
+
+.promedio > button {
+    background-color: #793c67;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 17px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.promedio > button:hover {
+    background-color: #aa7b96;
+}
+
+
+.averageBox {
+    width: 220px;
+    height: 220px;
+    margin: 25px auto;
+
+    border-radius: 50%;
+
+    background-color: #aa7b96;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0px 5px 15px rgba(92, 60, 78, 0.35);
+}
+
+
+.averageBox h2 {
+    margin: 0 0 5px 0;
+    font-size: 24px;
+}
+
+
+.averageBox p {
+    font-size: 38px;
+    font-weight: bold;
+    margin: 5px 0 15px 0;
+}
+
+
+.averageBox button {
+    background-color: #5c3c4e;
+    color: white;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.averageBox button:hover {
+    background-color: #632a6c;
+}
